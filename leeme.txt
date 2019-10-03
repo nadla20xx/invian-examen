@@ -1,1 +1,10 @@
 en la carpeta modelado se guarda script mysql de la bd y el modelado de la BD.
+
+Ejemplos de urls
+
+http://localhost/invian-examen/api/Empresas
+http://localhost/invian-examen/api/Empresas/1
+http://localhost/invian-examen/api/Empresas/1/Usuarios
+http://localhost/invian-examen/api/Empresas/1/Usuarios/5
+http://localhost/invian-examen/api/Empresas/1/Categorias/3
+http://localhost/invian-examen/api/Empresas/1/Usuarios/3/Categorias

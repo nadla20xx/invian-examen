@@ -27,7 +27,7 @@ Route::prefix('Empresas')->group(function () {
         Route::get('/', 'Api\UsuariosControlador@index')->name('recuperar.empresas.usuarios')->where(['id_empresa' => '[0-9]+']);
         Route::get('/{id_usuario}', 'Api\UsuariosControlador@get')->name('recuperar.empresas.usuario')->where(['id_empresa' => '[0-9]+','id_usuario' => '[0-9]+']);
 
-        Route::prefix('{id_usuario}/Categorías')->group(function () {
+        Route::prefix('{id_usuario}/Categorias')->group(function () {
 
             Route::get('', 'Api\CategoriasControlador@CategoriasUsuario')->name('recuperar.empresas.usuarios.categorias')->where(['id_empresa' => '[0-9]+','id_usuario' => '[0-9]+']);
 
