@@ -1,0 +1,1 @@
+en la carpeta modelado se guarda script mysql de la bd y el modelado de la BD.
